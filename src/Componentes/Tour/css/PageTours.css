@@ -1,0 +1,23 @@
+.titulo-principal{
+    grid-column: 1/9;
+}
+
+.titulo-principal h1{
+    text-align: center;
+}
+
+.boton-destinos{
+    width: 305px;
+    height: 55px;
+    margin-top: 48px;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #315FFF;
+    cursor: pointer;
+}
+
+.boton-destinos:hover{
+    background-color: #3c54ad;
+}
+

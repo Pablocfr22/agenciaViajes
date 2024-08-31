@@ -1,0 +1,64 @@
+.Subtitulo {
+  width: 100%;
+  float: left;
+}
+.h2-subtitulo {
+  text-align: center;
+  color: #315fff;
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 44px;
+}
+/*section historia*/
+.Sectionhistoria {
+  max-width: 1280px;
+  color: gray;
+  font-size: 20px;
+  font-weight: 500;
+  margin: auto;
+  padding: 60px 0 60px 0;
+  height: 1250px;
+}
+.div-historia {
+  height: 500px;
+  display: grid;
+  place-content: center;
+  margin-bottom: 50px;
+}
+.img-historia {
+  width: 1000px;
+  height: 500px;
+  border-radius: 15px;
+}
+
+.p-historia {
+  width: 662px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 44px;
+}
+.estamos {
+  display: flex;
+  width: 1040px;
+  height: 330px;
+  margin: auto;
+  gap: 120px;
+}
+.estamos h3 {
+  width: 50%;
+  font-size: 43px;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+.estamos p {
+  width: 50%;
+  font-size: 19px;
+  color: #161c2d;
+  margin: 0;
+  text-align: justify;
+}
+.estamos h3 + p {
+  margin-top: 20px;
+}

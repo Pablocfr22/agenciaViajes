@@ -1,0 +1,134 @@
+/* <!-- SECCION 2 --> */
+
+.disfruta{
+    width: 1280px;
+    height: 1150px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.paquetes{
+    height: 930px;
+    width: 1280px;
+    margin: auto;
+}
+
+.paquete{
+    display: flex;
+    width: 1280px;
+    height: 283px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 24px;
+}
+
+.image-paquete{
+    width: 440px;
+}
+
+.image-paquete>img{
+    width: 100%;
+    height: 100%;
+    transition: transform 1.5s ease
+}
+
+.image-paquete>img:hover{
+    transform: rotateY(180deg);
+    transition: transform 1.5s ease
+  }
+
+
+.contenido-paquete{
+    width: 840px;
+    margin: 0px 24px 0px 24px;  
+}
+
+.contenido-superior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido-izquierdo>h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    color: #696969;
+    font-size: 12px;
+    gap: 5px;
+}
+.estrellas{
+    display: flex;
+    gap: 25px;
+    font-size: 12px;
+}
+.opiniones{
+    display: flex;
+}
+
+.opiniones>p:nth-child(1){
+    padding: 5px;
+    border: solid 1px #315FFF;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.opiniones>p:nth-child(2){
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+hr{
+    background-color:#a8a3a3;
+    border-style: none;
+    height: 2px;
+}
+
+.contenido-derecho>p:nth-child(1){
+    font-size: 12px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.contenido-derecho>p:nth-child(2){
+    font-size: 24px;
+    font-weight: 700;
+    color: #315FFF;
+    margin-top: 0px;
+}
+
+.noche{
+    font-size: 12px;
+}
+
+.contenido-inferior{
+    display: flex;
+}
+
+.corazon{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #315FFF;
+    border-radius: 5px;
+    margin-right: 16px;
+}
+
+.ver-lugar{
+    width: 100%;
+    color: white;
+    border-radius: 16px;
+    border-style: none;
+    background-color: #315FFF;
+    cursor: pointer;
+}
+
+.ver-lugar:hover{
+    background-color: #3c54ad;
+}

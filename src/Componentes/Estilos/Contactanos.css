@@ -1,0 +1,82 @@
+.Seccion{
+    width: 1280px;
+    display: flex;
+    margin: auto;
+}
+
+.Formulario{
+    padding: 60px 0 60px 0;
+    margin: auto;
+}
+
+.frm{
+    padding: 40px;
+    background-color: #EEEEEE;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.subtitulo-form{
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    height: 35px;
+    font-size: 14px;
+    padding: 8px;
+    border-style: none;
+    border-radius: 8px;
+    margin: 10px 0 10px 0;
+}
+
+.txt-mensaje{
+    height: 180px;
+}
+
+.form-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-buttons button{
+    margin-top: 10px;
+    height: 40px;
+    width: 170px;
+    border-style: none ;
+    border-radius: 10px;
+    background-color: #315FFF;
+    color: white;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.limpiar:hover{
+    background-color: red;
+}
+
+.contactar:hover{
+    background-color: rgb(5, 179, 5);
+    transform: scale(1.1);
+}
+
+.Seccion2{
+    height: 660px;
+    padding: 60px 0 60px 0;
+    margin: auto;
+}
+
+.subtitulo-contacto{
+    font-weight: bold;
+}
+
+.secciones-contacto{
+    margin-top: 50px;
+}

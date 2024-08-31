@@ -1,0 +1,200 @@
+/*subtitulo*/
+.Subtitulo {
+  width: 94%;
+  float: left;
+}
+.h2-subtitulo {
+  text-align: left;
+  color: #315fff;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 2px;
+}
+/*Sectionperu*/
+.Sectionperu {
+  width: 100%;
+  height: 700px;
+  color: gray;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 60px 0 60px 0;
+}
+.div-peru {
+  width: 98%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 25px;
+  padding-left: 1%;
+  padding-right: 1%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img-peru {
+  width: 100%;
+  height: 360px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  transition: height 0.5s;
+  /*display: flex;
+    justify-content: space-around;*/
+}
+.art-peru {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.img-container {
+  position: relative;
+  margin: 10px;
+  height: 360px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.descripcion-container {
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 16px;
+}
+.descripcion-a {
+  text-align: center;
+  bottom: 10px;
+  color: black;
+}
+
+.icono {
+  width: 20px;
+  height: auto;
+  margin-top: 5px;
+}
+/*section mundo*/
+.Sectionmundo {
+  width: 100%;
+  height: 700px;
+  padding: 60px 0 60px 0;
+}
+.div-mundo {
+  width: 98%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 25px;
+  padding-left: 1%;
+  padding-right: 1%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img-mundo {
+  width: 100%;
+  height: 360px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  transition: 1s;
+  display: flex;
+  justify-content: space-around;
+}
+.art-peru {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.img-containermundo {
+  position: relative;
+  margin: 10px;
+}
+.img-containermundo:hover {
+  transform: scale(1.2);
+}
+.descripcion-containermundo {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 16px;
+}
+.icono-1 {
+  width: 20px;
+  height: auto;
+  margin-top: 5px;
+}
+/*Section mistico*/
+.Sectionmistico {
+  width: 100%;
+  height: 700px;
+  padding: 60px 0 60px 0;
+}
+.div-mistico {
+  width: 98%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 25px;
+  padding-left: 1%;
+  padding-right: 1%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img-mistico {
+  width: 100%;
+  height: 360px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  transition: 1s;
+  display: flex;
+  justify-content: space-around;
+}
+/* .art-peru{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+  }*/
+.img-containermistico {
+  position: relative;
+  margin: 10px;
+}
+.img-containermistico:hover {
+  transform: rotateY(360deg);
+  transition: 1s;
+}
+.descripcion-containermistico {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.icono-2 {
+  width: 20px;
+  height: auto;
+  margin-top: 5px;
+}
+/*---Boton destino----*/
+.boton-destinos {
+  width: 305px;
+  height: 55px;
+  margin-top: 80px;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #315fff;
+  cursor: pointer;
+}
+
+.boton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

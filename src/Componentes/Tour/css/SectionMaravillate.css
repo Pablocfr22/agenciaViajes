@@ -1,0 +1,130 @@
+
+.maravillate{
+    width: 100%;
+    height: 780px;
+    background-color: #EEEEEE;
+    padding: 50px 0 0px 0px;
+    margin: auto;
+}
+
+.encabezado-tours{
+    width: 1280px;
+    margin: auto;
+}
+
+.encabezado-tours>p{
+    width: 1280px;
+    margin: auto;
+    font-weight: 400;
+}
+
+h2{
+    margin-bottom: 42px;
+    font-size: 35px;
+}
+
+h2>span{
+    font-weight: 500px; 
+    color: #315FFF;
+}
+
+.cards-tours{
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    background-color: white;
+    width: 413px;
+    height: 480px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.imagen-tour{
+    height: 50%;
+    position: relative;
+}
+
+.imagen-card{
+    width: 100%;
+    height: 200%;
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.imagen-tour>p{
+    width: 85px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    left: 313px;
+}
+
+
+.contenido-tour{
+    height: 45%;
+    padding: 0px 26px 0px 26px;
+    opacity: 0;
+}
+
+.contenido-tour>p{
+    font-size: 13px;
+    color: #696969;
+    margin-top: 10px;
+}
+
+.contenido-tour>h3{
+    font-size: 29px;
+    font-weight: 650;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.reservar{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.icon{
+    width: 68px;
+    height: 45px;
+    background-color: #EEEEEE;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+.icon>p{
+    color: black;
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.reserva{
+    color: white;
+    background-color: #315FFF;
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px 28px 10px 28px;
+    font-size: 20px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
